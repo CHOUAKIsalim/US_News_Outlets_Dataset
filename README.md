@@ -1,6 +1,6 @@
 # US News Outlets Dataset
 
-Welcome to the U.S. News Outlets dataset! Here you will find a comprehensive list of news sources operating Facebook. This list encompasses well-known established news domains as well as under-the-radar Facebook pages that assert themselves as news providers.
+Welcome to the News Outlets dataset! Here you will find a comprehensive list of (mostly U.S.) news sources operating Facebook. This list encompasses well-known established news domains as well as under-the-radar Facebook pages that assert themselves as news providers.
 
 In total, we have gathered 12,638 distinct news domains associated with 14,451 Facebook pages. These news sources, along with their corresponding Facebook pages, are actively monitored by the [CheckMyNews extension](https://github.com/CHOUAKIsalim/CheckMyNews) to collect the news-related posts received by users. 
 
@@ -13,7 +13,7 @@ The dataset contains two types of news outlets:
 These are news outlets that have been extensively reviewed and surveyed by independent data providers, namely News Guard and Media Bias Fact Check. The Established News Sites list contains 4,149 news domains associated with 4,323 Facebook pages.
 
 ## 2. Under-the-Radar News Sites: 
-This list includes web domains that are linked to Facebook pages claiming to be news organizations, irrespective of their reputation and popularity. It includes all Facebook pages that promoted political ads in the United States from June 2018 to June 2020 and identified themselves as "News Media." Additionally, we extracted the corresponding websites mentioned in the "About" sections of these Facebook pages. The list contains 8,489 distinct domains associated with 10,128 Facebook pages.
+This list includes web domains that are linked to Facebook pages claiming to be news organizations, irrespective of their reputation and popularity. It includes all Facebook pages that promoted political ads from June 2018 to June 2020 and identified themselves as "News Media." Additionally, we extracted the corresponding websites mentioned in the "About" sections of these Facebook pages. The list contains 8,489 distinct domains associated with 10,128 Facebook pages.
 
 # Usage
 The "news_outlets_dataset.csv" file contains the comprehensive dataset of news outlets. Each line in the CSV file represents a Facebook page that claims to be a news provider, at the moment of our data collection. The file is structured with the following six columns:
